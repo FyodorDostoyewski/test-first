@@ -1,15 +1,6 @@
 export const convertPLNToUSD = (PLN) => {
 
 
-  if(!Number.isNaN()) {
-    return NaN
-  }
-  if(PLN <= Number.MIN_VALUE){
-    return  '$0.00'
-}
-  if(PLN !== String && PLN !== Number ){
-    return 'Error'
-  }
 
 
 

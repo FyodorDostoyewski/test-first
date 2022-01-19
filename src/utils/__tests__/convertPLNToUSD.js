@@ -1,4 +1,5 @@
 import { convertPLNToUSD } from './../convertPLNtoUSD';
+import '@testing-library/jest-dom/extend-expect';
 
 describe('ConvertPLNtoUSD', () => {
   it('should return proper value when good input', () => {
